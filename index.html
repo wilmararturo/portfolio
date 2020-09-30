@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="b">
     <!-- main navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand btn btn-secondary" href="#">Wilmar Stephens</a>
@@ -35,17 +35,19 @@
     </nav>
 
     <!-- About Me content  -->
-    <div class="container border border-dark p-2 my-2 bg-light">
+    <div class="container border border-dark p-2 my-2 bg-light main-container">
         <!-- title row -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
                 <h1 class="text-center text-lg-left">About me</h1>
             </div>
         </div>
-        <hr class="my-2">
+        <hr class="m-3">
         <!-- bio row -->
-        <div class="row">
-            <div class="col-lg-3 text-center">
+        <div class="row" id="bio-row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 text-center">
 
                 <figure class="figure">
                     <img src="assets/images/head0.jpg" alt="A picture of Wilmar Stephens"
@@ -56,12 +58,25 @@
             </div>
             <article class="col-lg-9">
                 <p>Infrastructure Engineer working primarily in the AWS Cloud. Emphasis on DevOps practices including
-                    infrastructure as code and
-                    automation. Current tools include Ansible, Terraform, Jenkins.</p>
+                    infrastructure as code (IaC) and configuration management. Current tools include Ansible, Terraform,
+                    Jenkins.</p>
                 <p>Working on a certificate in Full Stack Development establishing the skills to extend, build, and
                     maintain custom tools.</p>
                 <p>Other interests include consuming music, TV, and film.</p>
             </article>
+        </div>
+        <div class="row" id="button-row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <div class="btn-group" role="group" aria-label="Contact Buttons">
+                    <a href="https://github.com/wilmararturo" class="btn btn-secondaty btn-sm active"
+                        title="Wilmar's GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/wilmars" class="btn btn-secondaty btn-sm active"
+                        title="Wilmar on Linkedin">Linkedin</a>
+                    <a href="mailto:wilmar.s@gmail.com" class="btn btn-secondaty btn-sm active"
+                        title="Wilmar's E-mail">E-Mail</a>
+                </div>
+            </div>
         </div>
     </div>
 
