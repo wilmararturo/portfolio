@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
     <!-- Nunito Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="b">
+<body>
     <!-- main navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand btn btn-secondary" href="#">Wilmar Stephens</a>
@@ -35,20 +38,27 @@
         </div>
     </nav>
 
+
+
     <!-- About Me content  -->
-    <div class="container border border-dark p-2 my-2 bg-light main-container">
+    <div class="container border border-dark p-2 my-2 bg-light">
         <!-- title row -->
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
+
+            <div class="col-lg-12 text-center">
                 <h1 class="text-center text-lg-left">About me</h1>
             </div>
         </div>
-        <hr class="m-3">
+        <div class="row">
+            <span class="col-lg-2"></span>
+            <hr class="m-3 col-lg-8">
+            <span class="col-lg-2"></span>
+
+        </div>
         <!-- bio row -->
         <div class="row" id="bio-row">
             <div class="col-lg-1"></div>
-            <div class="col-lg-2 text-center">
+            <div class="col-lg-2 text-center border-right">
 
                 <figure class="figure">
                     <img src="assets/images/head0.jpg" alt="A picture of Wilmar Stephens"
@@ -58,43 +68,47 @@
 
             </div>
             <article class="col-lg-9">
-                <p>Infrastructure Engineer working primarily in the AWS Cloud. Emphasis on DevOps practices including
-                    infrastructure as code (IaC) and configuration management. Current tools include Ansible, Terraform,
+                <p>Infrastructure Engineer working primarily in the AWS Cloud. Emphasis on DevOps practices
+                    including
+                    infrastructure as code (IaC) and configuration management. Current tools include Ansible,
+                    Terraform,
                     Jenkins.</p>
                 <p>Working on a certificate in Full Stack Development establishing the skills to extend, build, and
                     maintain custom tools.</p>
                 <p>Other interests include consuming music, TV, and film.</p>
             </article>
         </div>
-        <hr class="m-3">
+
+
+    </div>
+    <div class="container border border-dark p-2 my-2 bg-light" id="contact-links">
 
         <div class="row" id="button-row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-4">
-                <div class="btn-group" role="group" aria-label="Contact Buttons">
-                    <a href="https://github.com/wilmararturo" class="btn btn-secondaty btn-sm active"
-                        title="Wilmar's GitHub">GitHub</a>
-                    <a href="https://www.linkedin.com/in/wilmars" class="btn btn-secondaty btn-sm active"
-                        title="Wilmar on Linkedin">Linkedin</a>
-                    <a href="mailto:wilmar.s@gmail.com" class="btn btn-secondaty btn-sm active"
-                        title="Wilmar's E-mail">E-Mail</a>
-                </div>
+            <div class="btn-group m-auto" role="group" aria-label="Contact Buttons">
+                <a href="https://github.com/wilmararturo" class="btn btn-secondary btn-lg active mr-1"
+                    title="Wilmar's GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/wilmars" class="btn btn-secondary btn-lg active"
+                    title="Wilmar on Linkedin">LinkedIn</a>
+                <a href="mailto:wilmar.s@gmail.com" class="btn btn-secondary btn-lg active ml-1"
+                    title="Wilmar's E-mail">E-Mail</a>
             </div>
         </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer container bg-dark text-white m-auto p-3 col-lg-12" id="f">
+
+
+        <div class="col-lg-12 text-center">
+            <span class="text-muted"> Copyright &copy; 2020 </span>
+        </div>
+
+
+
     </div>
 
 
-    <!-- footer -->
-    <footer class="footer bg-dark text-white mt-auto py-3">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <span class="text-muted"> Copyright &copy; 2020 </span>
-                </div>
-            </div>
-        </div>
-
-    </footer>
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

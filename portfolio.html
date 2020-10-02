@@ -10,15 +10,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
     <!-- Nunito Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
     <!-- Custon CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
-
 </head>
 
-<body id="b">
+<body>
     <!-- portfolio navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand btn btn-secondary" href="./index.html">Wilmar Stephens</a>
@@ -36,130 +38,108 @@
         </div>
     </nav>
 
-    <div class="main-container content">
-        <!-- nesting to use a fraction of page -->
+    <!-- portfolio content -->
+    <div class="container border border-dark p-2 my-2 bg-light">
+        <!-- title row -->
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-lg-9">
-                <!-- portfolio content -->
-                <div class="container border border-dark py-2 my-2 bg-light">
-                    <!-- title row -->
-                    <div class="row">
-                        <div class="col-12">
-                            <h1 class="text-center text-lg-left">Portfolio</h1>
-                        </div>
+            <div class="col-lg-12">
+                <h1 class="text-center text-lg-left">Portfolio</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <span class="col-lg-2"></span>
+            <hr class="m-3 col-lg-8">
+            <span class="col-lg-2"></span>
+        </div>
+
+        <!-- card row -->
+        <!-- <div class="row" id="portfolio-row"> -->
+
+        <div class="card-deck">
+
+            <div class="card">
+                <figure class="figure card-img-top">
+                    <img src="assets/images/covid-alert.png" alt="covid-alert"
+                        class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
+                </figure>
+                <div class="card-body">
+                    <h5 class="card-title">Covid Alert</h5>
+                    <p class="card-text">A dashboard of CoVid-19 states by state</p>
+                </div>
+                <div class="card-footer">
+                    <div class="btn-group m-auto" role="group" aria-label="Project Buttons">
+
+                        <a href="https://github.com/wilmararturo/covid-alert"
+                            class="btn btn-secondary btn-lg active mr-1">GitHub
+                            Project</a>
+                        <a href="https://wilmararturo.github.io/covid-alert/"
+                            class="btn btn-secondary btn-lg active ml-1">Website</a>
                     </div>
 
-                    <hr class="my-2">
-
-                    <!-- three rows with responsive columns -->
-                    <div class="row">
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 0"
-                                    class="figure-img roundedd-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-
-                        </div>
-                        <div class="card col-lg-4">
-                            <figure class="figure">
-                                <img src="assets/images/covid-alert.png" alt="covid-alert"
-                                    class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
-                            </figure>
-                            <div class="card-body">
-                                <h5 class="card-title">Covid Alert</h5>
-                                <a href="https://github.com/wilmararturo/covid-alert" class="card-link">GitHub
-                                    Project</a>
-                                <a href="https://wilmararturo.github.io/covid-alert/" class="card-link">Website</a>
-                            </div>
-                        </div>
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 0"
-                                class="figure-img roundedd-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 2"
-                                    class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-                        </div>
-                        <div class="card col-lg-4">
-                            <figure class="figure">
-                                <img src="assets/images/weather-dashboard.png" alt="weather-dashboard"
-                                    class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
-                            </figure>
-                            <div class="card-body">
-                                <h5 class="card-title">Weather Dashboard</h5>
-                                <a href="https://github.com/wilmararturo/weather-dashboard" class="card-link">GitHub
-                                    Project</a>
-                                <a href="https://wilmararturo.github.io/weather-dashboard/"
-                                    class="card-link">Website</a>
-                            </div>
-                        </div>
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 0"
-                                    class="figure-img roundedd-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 4"
-                                    class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-                        </div>
-                        <div class="card col-lg-4">
-                            <figure class="figure">
-                                <img src="assets/images/code-quiz.png" alt="code-quiz"
-                                    class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
-                            </figure>
-                            <div class="card-body">
-                                <h5 class="card-title">Code Quiz</h5>
-                                <a href="https://github.com/wilmararturo/code-quiz" class="card-link">GitHub
-                                    Project</a>
-                                <a href="https://wilmararturo.github.io/code-quiz/" class="card-link">Website</a>
-                            </div>
-                        </div>
-                        <!-- place holder for future grid entries -->
-                        <div class="col-lg-4">
-                            <!-- <figure class="figure">
-                                <img src="assets/images/placeholder.png" alt="Placeholder 0"
-                                    class="figure-img roundedd-block img-fluid img-thumbnail imgsize">
-                            </figure> -->
-
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="col-2"></div>
+
+            <div class="card">
+                <figure class="figure card-img-top">
+                    <img src="assets/images/weather-dashboard.png" alt="weather-dashboard"
+                        class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
+                </figure>
+                <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">A simple weather dashboard with lookup by city</p>
+                </div>
+                <div class="card-footer">
+                    <div class="btn-group m-auto" role="group" aria-label="Project Buttons">
+
+                        <a href="https://github.com/wilmararturo/weather-dashboard"
+                            class="btn btn-secondary btn-lg active mr-1">GitHub
+                            Project</a>
+                        <a href="https://wilmararturo.github.io/weather-dashboard/"
+                            class="btn btn-secondary btn-lg active ml-1">Website</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <figure class="figure card-img-top">
+                    <img src="assets/images/code-quiz.png" alt="code-quiz"
+                        class="rounded mx-auto d-block img-fluid img-thumbnail imgsize">
+                </figure>
+                <div class="card-body">
+                    <h5 class="card-title">Code Quiz</h5>
+                    <p class="card-text">A Javascrip Code Quiz</p>
+                </div>
+                <div class="card-footer">
+                    <div class="btn-group m-auto" role="group" aria-label="Project Buttons">
+
+                        <a href="https://github.com/wilmararturo/code-quiz"
+                            class="btn btn-secondary btn-lg active mr-1">GitHub
+                            Project</a>
+                        <a href="https://wilmararturo.github.io/code-quiz/"
+                            class="btn btn-secondary btn-lg active ml-1">Website</a>
+                    </div>
+
+                </div>
+            </div>
         </div>
+        <!-- </div> -->
+
+
     </div>
+
     <!-- footer -->
-    <footer class="footer bg-dark text-white mt-auto py-3" id="f">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <span class="text-muted"> Copyright &copy; 2020 </span>
-                </div>
-            </div>
+    <div class="footer container bg-dark text-white m-auto p-3 col-lg-12" id="f">
+
+
+        <div class="col-lg-12 text-center">
+            <span class="text-muted"> Copyright &copy; 2020 </span>
         </div>
 
-    </footer>
+
+
+    </div>
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
