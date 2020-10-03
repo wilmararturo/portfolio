@@ -27,3 +27,8 @@
 .content {
     margin: auto;
 }
+
+.portfolio-img {
+    width: 318px;
+    height: 200px;
+}
