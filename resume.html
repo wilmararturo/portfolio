@@ -12,12 +12,14 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Nunito Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
     <!-- Custon CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body id="b">
+<body>
     <!-- main navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand btn btn-secondary" href="./index.html">Wilmar Stephens</a>
@@ -37,10 +39,31 @@
 
     <!-- Resume content  -->
     <div class="container border border-dark p-2 my-2 bg-light main-container">
-        <embed src="assets/pdf/WilmarAStephens.pdf" type="application/pdf" width="1000px" height="2100px">
+        <div class="row" id="contact-resume-row">
+            <div class="btn-group m-auto" role="group" aria-label="Contact Buttons">
+                <a href="assets/pdf/WilmarAStephens.pdf" class="btn btn-secondary btn-lg active"
+                    download="WilmarStephens.pdf"><i class="fa fa-download"></i>Download
+                    Resume</a>
+            </div>
+        </div>
+        <!-- <embed src="assets/pdf/WilmarAStephens.pdf" type="application/pdf" width="1000px" height="2100px"> -->
 
     </div>
 
+    <div class="container border border-dark p-2 my-2 bg-light" id="contact-links">
+
+        <div class="row" id="button-row">
+            <div class="btn-group m-auto" role="group" aria-label="Contact Buttons">
+                <a href="https://github.com/wilmararturo" class="btn btn-secondary btn-lg active mr-1"
+                    title="Wilmar's GitHub"> <i class="fa fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/wilmars" class="btn btn-secondary btn-lg active"
+                    title="Wilmar on Linkedin"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:wilmar.s@gmail.com" class="btn btn-secondary btn-lg active ml-1"
+                    title="Wilmar's E-mail"> <i class="fa fa-envelope"></i> E-Mail</a>
+            </div>
+        </div>
+
+    </div>
 
     <!-- footer -->
     <div class="footer container bg-dark text-white m-auto p-3 col-lg-12" id="f">
