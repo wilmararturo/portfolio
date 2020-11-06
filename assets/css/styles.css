@@ -11,6 +11,9 @@
     margin: 10px;
 }
 
+.card-footer {
+    margin: 5px;
+}
 
 #b {
     position: relative;
