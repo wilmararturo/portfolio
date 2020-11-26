@@ -36,12 +36,12 @@ const projectsObj = [
 
     },
     {
-        title: "Burger App",
-        shortDescription: "An MVC to-do list for eating burgers",         
-        image: "assets/images/eatdaburger.png", 
-        imageText: "burger-app",
-        githubURL: "https://github.com/wilmararturo/covid-alert",
-        websiteURL: "https://wilmararturo.github.io/covid-alert/",
+        title: "HyFit App",
+        shortDescription: "A full-stack workout journal",         
+        image: "assets/images/hyfit.png", 
+        imageText: "hyfit-app",
+        githubURL: "https://github.com/angierys22/project-2",
+        websiteURL: "https://fierce-bastion-31124.herokuapp.com",
 
     },
 ]
