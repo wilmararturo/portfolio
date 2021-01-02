@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/license-MIT%20License-blue)
-![](https://travis-ci.com/wilmararturo/react-portfolio.svg?branch=main)
+![](https://travis-ci.com/wilmararturo/portfolio.svg?branch=master)
 
 # React Portfolio
 
@@ -21,13 +21,13 @@ Coding portfolio featuring projects and contact information.
 - [Contributing](#contributing)
 - [License](#license)
 
-![preview](./budgetTracker.gif)
+![preview]()
 
 ## Usage
 
 ---
 
-- Navigate to [react-portfolio](https://wilmararturo.github.io/react-portfolio/).
+- Navigate to [react-portfolio](https://wilmararturo.github.io/portfolio/).
 
 ## Tests
 

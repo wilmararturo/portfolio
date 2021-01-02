@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wilmararturo.github.io/react-portfolio/",
+  "homepage": "https://wilmararturo.github.io/portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:wilmararturo/react-portfolio.git"
+    "url": "git+git@github.com:wilmararturo/portfolio.git"
   },
   "author": "Wilmar Stephens",
   "license": "MIT",
