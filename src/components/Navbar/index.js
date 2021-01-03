@@ -42,14 +42,14 @@ function Navbar() {
             Contact
           </Link>
           <Link
-            to="/portfolio"
+            to="/projects"
             className={
-              window.location.pathname === "/portfolio"
+              window.location.pathname === "/projects"
                 ? "nav-link active"
                 : "nav-link inactive"
             }
           >
-            Portfolio
+            Projects
           </Link>
           <Link
             to="/resume"

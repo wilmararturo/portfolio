@@ -5,16 +5,16 @@ import Card from "../components/Card";
 import SectionHeader from "../components/SectionHeader";
 import ContactButtons from "../components/ContactButtons";
 
-import Projects from "../Projects.json";
+import MyProjects from "../Projects.json";
 
-function Portfolio() {
+function Projects() {
   return (
     <Container>
       <Row>
-        <SectionHeader header="Portfolio" />
+        <SectionHeader header="Projects" />
       </Row>
       <Row rowID="project-row">
-        {Projects.map((item, index) => (
+        {MyProjects.map((item, index) => (
           <Card project={item} key={index} />
         ))}
       </Row>
@@ -25,4 +25,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;

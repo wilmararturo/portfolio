@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/license-MIT%20License-blue)
 ![](https://travis-ci.com/wilmararturo/portfolio.svg?branch=master)
 
-# React Portfolio
+# Portfolio
 
 A portfolio built with ReactJS.
 
@@ -27,7 +27,7 @@ Coding portfolio featuring projects and contact information.
 
 ---
 
-- Navigate to [react-portfolio](https://wilmararturo.github.io/portfolio/).
+- Navigate to [portfolio](https://wilmararturo.github.io/portfolio/).
 
 ## Tests
 

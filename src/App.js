@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
@@ -18,7 +18,7 @@ function App() {
         <Wrapper>
           <Route exact path={["/home", "/"]} component={Home} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={Resume} />
         </Wrapper>
       </div>
