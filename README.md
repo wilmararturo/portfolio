@@ -21,7 +21,7 @@ Coding portfolio featuring projects and contact information.
 - [Contributing](#contributing)
 - [License](#license)
 
-![preview]()
+![preview](portfolio.png)
 
 ## Usage
 
