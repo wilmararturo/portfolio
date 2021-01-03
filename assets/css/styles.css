@@ -1,0 +1,37 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-footer {
+    background: none;
+}
+
+#b {
+    position: relative;
+    min-height: 100%;
+}
+
+
+#f {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    margin: auto;
+}
+
+.portfolio-img {
+    width: 318px;
+    height: 200px;
+}
