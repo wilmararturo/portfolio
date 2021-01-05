@@ -43,5 +43,14 @@
     "imageText": "hyfit-app",
     "githubURL": "https://github.com/angierys22/project-2",
     "websiteURL": "https://fierce-bastion-31124.herokuapp.com"
+  },
+  {
+    "id": 6,
+    "title": "Employee Directory",
+    "shortDescription": "A Searchable Employee Directory",
+    "image": "assets/images/employeeDirectory.png",
+    "imageText": "employee-directory",
+    "githubURL": "https://github.com/wilmararturo/employee-directory",
+    "websiteURL": "https://wilmararturo.github.io/employee-directory/"
   }
 ]
